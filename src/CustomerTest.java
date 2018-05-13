@@ -34,10 +34,10 @@ public class CustomerTest {
 		String string = "Rental Record for " + customer.getName() + "\n" +
 				"\tTitle\t\tDays\tAmount\n" +
 				"\tL.A. Crash\t\t10\t14.0\n" +
-				"\tThe Incredibles 2\t\t5\t15.0\n" +
-				"\tBarbie: Mariposa\t\t7\t7.5\n" +
-				"Amount owed is 36.5\n" +
-				"You earned 4 frequent renter points";
+				"\tThe Incredibles 2\t\t5\t6.5\n" +
+				"\tBarbie: Mariposa\t\t7\t9.5\n" +
+				"Amount owed is 30.0\n" +
+				"You earned 3 frequent renter points";
 		
 		customer.addRental(rentalRegular);
 		customer.addRental(rentalNew);
